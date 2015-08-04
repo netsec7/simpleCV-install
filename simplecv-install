@@ -1,0 +1,18 @@
+install using simplecv repository
+--
+sudo apt-get install ipython python-opencv python-scipy python-numpy python-pygame python-setuptools git
+git clone https://github.com/sightmachine/SimpleCV.git
+cd Downloads
+sudo dpkg -i ./SimpleCV-1.3.deb // <<put location of the downloaded file from the location >>
+
+cd SimpleCV
+sudo pip install -r requirements.txt // this line may not work
+sudo python setup.py install
+
+
+
++++++++++++++++++++++++++++++
+install using pip
+--
+sudo apt-get install ipython python-opencv python-scipy python-numpy python-pygame python-setuptools python-pip
+sudo pip install https://github.com/sightmachine/SimpleCV/zipball/develop
